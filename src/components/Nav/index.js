@@ -1,10 +1,6 @@
 import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function categorySelected(name) {
-    console.log(`${name} clicked`)
-};
-
 function Nav(props) {
     const {
         categories = [],
@@ -18,7 +14,7 @@ function Nav(props) {
         <header>
             <h2>
                 <a data-testid="link" href="/">
-                    <span role="image" aria-label="camera"> 📸 </span> Oh Snap!
+                    <span role="img" aria-label="camera"> 📸 </span> Oh Snap!
                 </a>
             </h2>
             <nav>
